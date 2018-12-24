@@ -14,6 +14,18 @@ const eventListeners = {
             legoShape: shape
         }
    data.postLego(legoObject);
-    }
+    },
+    handlecolorSubmission () {
+        const colors = document.querySelector("#lego__color").value;
+        const colorLego = {
+            color : green,
+            color : yellow,
+            color : blue,
+            color : black,
+            color : white
 
+        }
+    color.colorLego(colorLego);
+    }
 };
+    
